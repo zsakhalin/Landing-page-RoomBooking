@@ -1,0 +1,274 @@
+@font-face{
+	font-family: ComfortaaReg;
+	src: url("../fonts/Comfortaa-Regular.ttf") format("truetype");
+}
+@font-face{
+	font-family: ComfortaaBold;
+	src: url("../fonts/Comfortaa-Bold.ttf") format("truetype");
+}
+@font-face{
+	font-family: ComfortaaLight;
+	src: url("../fonts/Comfortaa-Light.ttf") format("truetype");
+}
+@font-face{
+	font-family: RoundsBlack;
+	src: url("../fonts/RoundsBlack.otf") format("truetype");
+}
+
+body{
+	font-family: ComfortaaReg;
+	background-color: #ffffff; /*white
+	/*background-image: url(../images/svg1.svg);*/
+}
+
+.wrap{
+	width: 80%;
+	margin: auto;
+	padding: 20px 0 20px 0; 
+}
+.boldUpper{
+	font-weight: bold;
+	text-transform: uppercase; 
+}
+a{
+	outline: none;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*general css*/
+.download{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.download div p{
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.download div p:nth-child(3){
+	font-weight: bold;
+}
+.download div{
+	background-color: #e3ff17;
+	border: #ffffff 1px solid;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px rgba(0,90,250,0.05),
+    0 4px 4px rgba(0,90,250,0.05),
+    0 8px 8px rgba(0,90,250,0.05),
+    0 16px 16px rgba(0,90,250,0.05);
+	width: 150px;
+	padding: 10px;
+	margin-right: 20px;
+}
+.download div img{
+	float: left;
+	width: 51px;
+	height: 51px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+.start, .how, .footer{
+	background-color: #adbd37;
+	color: #ffffff;
+}
+/*END general css*/
+
+/*header*/
+.header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.header a{
+	color: #adbd37;
+}
+.logo img{
+	width: 100px;
+}
+ul{
+	width: 80%;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+/*END header*/
+
+/*start*/
+.start{
+	margin: 10px 0 20px 0;
+}
+.rightBar{
+	position: relative;
+    float: left;
+    width: 50%;
+}
+.leftBar{
+	position: relative;
+    float: left;
+    padding: 50px 0 50px 20px;
+}
+.counts{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px
+}
+.count{
+	width: 30%;
+}
+.leftBar img{
+	/*margin: auto;*/
+	width: 200px;
+}
+.textInfo{
+	clear: both;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.textLeft{
+/*	font-weight: bold;
+	text-transform: uppercase; */
+}
+.textInfo div{
+	width: 50%;
+}
+
+/*END start*/
+
+/*advantages*/
+.advantages{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: flex-end;
+}
+.advantages div{
+	width: 30%;
+	/*padding-right: */
+	/*flex-grow: 1;*/
+}
+.advantages div img{
+	width: 80%;
+}
+/*END advantages*/
+
+/*how*/
+.how{
+	clear: both;
+	height: 600px;
+}
+.how .leftBarHow{
+	position: relative;
+	width: 40%;
+	float: left;
+}
+.how .rightBarHow{
+	position: relative;
+	width: 40%;
+	float: right;
+	padding-top: 40px;
+}
+.how .leftBarHow img{
+	width: 100px;
+}
+.how .step{
+	color: #000000;
+	background-color: #e3ff17;
+	border: #ffffff 1px solid;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px rgba(0,90,250,0.05),
+    0 4px 4px rgba(0,90,250,0.05),
+    0 8px 8px rgba(0,90,250,0.05),
+    0 16px 16px rgba(0,90,250,0.05);
+	width: 190px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px auto 10px auto;
+	text-align: center;
+}
+.how .step img{
+	float: left;
+    width: 51px;
+}
+.how .step p{
+	margin-top: 0;
+}
+#shortP{
+	margin-bottom: 0;
+}
+#docImg{
+	height: 70px;
+}
+#prevImg{
+	width: 400px;
+}
+/*END how*/
+
+/*footer*/
+.footer{
+	color: #000;
+	clear: both;
+}
+.footer .contacts{
+	clear: both;
+}
+.footer .contacts img{
+    width: 51px;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.year{
+	text-align: center;
+	border-radius: 
+}
+/*END footer*/
+
+.greenBG{
+	background-color: #adbd37; 
+}
+.whiteFont{
+	color: #fff;
+}
+#customers {
+	width: 60%;
+	margin: auto;
+	background-color: #dae1a4;
+	border-radius: 20px;
+	text-align: center;
+	border-collapse: collapse;
+	box-shadow: 6px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+#customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	color: white;
+}
+#customers th, #customers td {
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+/*#customers tr:last-child{
+	border-bottom: 0px solid #fff;
+}
+*/
+/*#customers tr:hover {background-color: #ddd;}*/
+
+
+#el11{
+	border-radius: 20px 20px 0px 0px;
+}
+#el16{
+	border-radius: 0px 0px 20px 20px;
+}
+#row6{
+	border-bottom: 0px solid #fff;
+	
+}
